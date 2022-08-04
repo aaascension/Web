@@ -1,10 +1,11 @@
 body {
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 .center {
   margin: auto;
-  width: 600px;
+  max-width: 600px;
 }
 
 .front {
@@ -36,10 +37,9 @@ body {
   line-height: 0.1;
 }
 
-.k {
+.btn {
   background-color: #fff1f100;
-  border: 2px solid rgba(5, 66, 186, 0.575);
-  border-radius: 8px;
+
   color: #008cba;
   text-align: center;
   text-decoration: none;
@@ -50,11 +50,18 @@ body {
   transition-duration: 0.4s;
 }
 
-.k:hover {
-  background-color: rgba(5, 66, 186, 0.575);
-  color: white;
-}
-
 a {
   text-decoration: none;
+}
+
+/* .btn {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  width: 100px;
+} */
+
+nav {
+  text-align: center;
 }
